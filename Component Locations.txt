@@ -1,0 +1,55 @@
+All numbers are in pixel values
+
+Input Signal Level Meter:
+X=27, Y=32, W=46, H=390
+
+Output Signal Level Meter:
+X=827, Y=32, W=46, H=390
+
+GR Meter:
+X=482, Y=32, W=36, H=390
+
+Compressor Dial:
+X=200, Y=145, W=180, H=180
+
+Input Dial:
+X=642, Y=90, W=64, H=64
+
+Output Dial:
+X=610, Y=203, W=128, H=128
+
+Side-Chain Button:
+X=144, Y=400, W=50, H=30
+
+Mode A/B Button:
+X=368, Y=400, W=50, H=30
+
+Auto-Level Button:
+X=646, Y=400, W=50, H=30
+
+Version Number Text:
+X=330, Y=37, W=105, H=20
+
+    // Input Gain Dial: X=642, Y=90, W=64, H=64 — half the size of the
+    // Output dial, same filmstrip (frame scaled down to fit, no manual
+    // resize needed).
+    inputGainSlider.setBounds (642, 90, 64, 64);
+
+    // Compressor Dial: X=200, Y=145, W=180, H=180 — filmstrip drawn 1:1 into
+    // this box by FilmstripKnobLookAndFeel (source frame scaled to fit).
+    compressSlider.setBounds (200, 147, 180, 180);
+
+    // Output Dial: X=606, Y=197, W=128, H=128.
+    outputSlider.setBounds (610, 203, 128, 128);
+
+    // Side-Chain Button: X=144, Y=400, W=50, H=30.
+    sideChainButton.setBounds (144, 400, 50, 30);
+
+    // Mode A/B Button: X=368, Y=400, W=50, H=30.
+    modeButton.setBounds (368, 400, 50, 30);
+
+    // Auto-Level Button: X=646, Y=400, W=50, H=30.
+    autoGainButton.setBounds (646, 400, 50, 30);
+
+    // Version Number Text: X=330, Y=37, W=105, H=20.
+    versionLabel.setBounds (330, 37, 105, 20);
